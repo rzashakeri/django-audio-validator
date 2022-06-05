@@ -9,7 +9,7 @@ from django.utils.deconstruct import deconstructible
 class AudioValidator:
     def __init__(self, audio_type):
         """
-        audio type must be a string of :
+        Pass the audio file type as a string : (str)
         aac
         midi
         mp3

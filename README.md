@@ -2,18 +2,31 @@
 
 # Django Audio Validator 🔉
 
-This Library a Audio Validator For Django With MIME And Extension Use FileType Library
+This Library a Audio Validator For Django With d MIME type checking the magic numbers signature And Extension Use FileType Library
 
 # Feature 📌
 
-1. Audio File Type Check
+1. Audio File Type Check Use MIME Type
 2. Audio File Extension Check
+
+
+# Audio Type Supported ✅
+
+- aac - `audio/aac`
+- midi - `audio/midi`
+- mp3 - `audio/mpeg`
+- m4a - `audio/mp4`
+- ogg - `audio/ogg`
+- flac - `audio/x-flac`
+- wav - `audio/x-wav`
+- amr - `audio/amr`
+- aiff - `audio/x-aiff`
 
 # How Use ? 👇
 
 1. First Install The Library Use The Command :
 
-   `pip install `
+   `pip install django-audio-validator`
 
 2. Import Library In Your Model :
 
@@ -21,20 +34,10 @@ This Library a Audio Validator For Django With MIME And Extension Use FileType L
 
 3. Pass Validator To Your Model And Set Type Of Audio :
 
-    Audio Type Supported :
-    - aac
-    - midi
-    - mp3
-    - m4a
-    - ogg
-    - flac
-    - wav
-    - amr
-    - aiff
 
-Template : ``` AudioValidator("Audio Type Supported") ```
+    Template : ``` AudioValidator("Audio Type Supported") ```
 
-Code Example :
+    **Code Example :**
 
     ```
     class Attachment(models.Model):
@@ -47,4 +50,5 @@ Code Example :
         created_at = models.DateTimeField(auto_now_add=True)
     ```
 
-# Contribute This Project
+# Contribute This Project 🔗
+If you would like to help me develop this project, you can do so through this [link](https://github.com/rzashakeri/django-audio-validator)

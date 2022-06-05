@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/audio_validator/__init__.py
+src/audio_validator/validator.py
+src/django_audio_validator.egg-info/PKG-INFO
+src/django_audio_validator.egg-info/SOURCES.txt
+src/django_audio_validator.egg-info/dependency_links.txt
+src/django_audio_validator.egg-info/requires.txt
+src/django_audio_validator.egg-info/top_level.txt
