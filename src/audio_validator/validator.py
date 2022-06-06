@@ -70,15 +70,15 @@ class AudioValidator:
                 else:
                     # show validation error for this file is not audio type
                     raise ValidationError(
-                        f"please upload a valid mp3 file , your file : {file.name} , valid type : {self.audio_type_extension}"
+                        f"please upload a valid {self.audio_type_extension} file , your file : {file.name} , valid type : {self.audio_type_extension}"
                     )
             else:
                 # show validation error for this file is not audio by type
                 raise ValidationError(
-                    f"please upload a valid audio file , your file : {file.name} , valid type : {self.audio_type_extension}"
+                    f"please upload a valid {self.audio_type_extension} file , your file : {file.name} , valid type : {self.audio_type_extension}"
                 )
         else:
             # show validation error for this file is not audio by extension
             raise ValidationError(
-                f"please upload a valid audio file , your file : {file.name} , valid type : {self.audio_type_extension}"
+                f"please upload a valid {self.audio_type_extension} file , your file : {file.name} , valid type : {self.audio_type_extension}"
             )
