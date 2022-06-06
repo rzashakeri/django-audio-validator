@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/badge/Django-092E20.svg?style=for-the-badge&logo=Django&logoColor=white"> <img src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white"> <img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/django-audio-validator?style=for-the-badge">
+<img src="https://img.shields.io/badge/Django-092E20.svg?logo=Django&logoColor=white"> <img src="https://img.shields.io/badge/Python-3776AB.svg?logo=Python&logoColor=white"> [![Downloads](https://static.pepy.tech/personalized-badge/django-audio-validator?period=total&units=international_system&left_color=grey&right_color=brightgreen&left_text=Downloads)](https://pepy.tech/project/django-audio-validator) [![PyPI version](https://badge.fury.io/py/django-audio-validator.svg)](https://badge.fury.io/py/django-audio-validator)
 
 # Django Audio Validator 🔉
 
