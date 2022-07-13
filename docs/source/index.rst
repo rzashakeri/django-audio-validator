@@ -21,7 +21,5 @@ Contents
 .. toctree::
 
    Home <self>
-   usage
-   api
    functions
-   class
+   usage
