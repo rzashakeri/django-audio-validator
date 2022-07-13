@@ -8,17 +8,10 @@ from django.utils.deconstruct import deconstructible
 @deconstructible
 class AudioValidator:
     def __init__(self, audio_type):
-        """
-        Pass the audio file type as a string : (str)
-        aac
-        midi
-        mp3
-        m4a
-        ogg
-        flac
-        wav
-        amr
-        aiff
+        """A function just for me.
+        :param my_arg: The first of my arguments.
+        :param my_other_arg: The second of my arguments.
+        :returns: A message (just for me, of course).
         """
         # getting audio types with the filetype library
         audio_type_dic = {
