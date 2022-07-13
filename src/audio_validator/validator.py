@@ -54,7 +54,7 @@ class AudioValidator:
         file = value.file
         # get audio file temporary path saved django
         file_path = TemporaryUploadedFile.temporary_file_path(file)
-        # We check the file type of c?
+        # We check the file type is audio type
         is_audio = filetype.is_audio(file_path)
         # We check the extension file is audio
         file_extension = filetype.guess_extension(file_path)
