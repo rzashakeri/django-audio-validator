@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>functions &mdash; django audio validator 1 documentation</title>
+  <title>functions 💡 &mdash; django audio validator 1 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -19,8 +19,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Usage" href="usage.html" />
-    <link rel="prev" title="Welcome to Django Audio Validator documentation!" href="index.html" /> 
+    <link rel="prev" title="How To Use ? 📌" href="usage.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -39,9 +38,10 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="index.html">Home</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">functions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">Home 🏚️</a></li>
+<li class="toctree-l1"><a class="reference internal" href="audio_type_supported.html">Audio Type Supported ✅</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">How To Use ? 📌</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">functions 💡</a></li>
 </ul>
 
         </div>
@@ -58,7 +58,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>functions</li>
+      <li>functions 💡</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/functions.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -69,15 +69,52 @@
            <div itemprop="articleBody">
              
   <section id="functions">
-<h1>functions<a class="headerlink" href="#functions" title="Permalink to this heading"></a></h1>
+<h1>functions 💡<a class="headerlink" href="#functions" title="Permalink to this heading"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="src.audio_validator.validator.AudioValidator">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">src.audio_validator.validator.</span></span><span class="sig-name descname"><span class="pre">AudioValidator</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#src.audio_validator.validator.AudioValidator" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="src.audio_validator.validator.AudioValidator.__init__">
+<span class="sig-prename descclassname"><span class="pre">AudioValidator.</span></span><span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">audio_type</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#src.audio_validator.validator.AudioValidator.__init__" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>audio_type</strong> – <p>Django Audio Validator Supported This Audio Type:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">aac</span></code> - <cite>audio/aac</cite></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">midi</span></code> - <cite>audio/midi</cite></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mp3</span></code>- <cite>audio/mpeg</cite></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">m4a</span></code>- <cite>audio/mp4</cite></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ogg</span></code>- <cite>audio/ogg</cite></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">flac</span></code> - <cite>audio/x-flac</cite></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">wav</span></code>- <cite>audio/x-wav</cite></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">amr</span></code>- <cite>audio/amr</cite></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">aiff</span></code> - <cite>audio/x-aiff</cite></p></li>
+</ul>
+<p>You must enter the audio type as a <strong>string</strong></p>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="src.audio_validator.validator.AudioValidator.__call__">
+<span class="sig-prename descclassname"><span class="pre">AudioValidator.</span></span><span class="sig-name descname"><span class="pre">__call__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#src.audio_validator.validator.AudioValidator.__call__" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>value</strong> – Here is the <strong>value</strong> of the same file that we receive and we want to perform the validation operation</p>
+</dd>
+</dl>
+</dd></dl>
+
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to Django Audio Validator documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="usage.html" class="btn btn-neutral float-right" title="Usage" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="usage.html" class="btn btn-neutral float-left" title="How To Use ? 📌" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>
