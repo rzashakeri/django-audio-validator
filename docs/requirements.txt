@@ -56,4 +56,4 @@ sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
 urllib3==1.26.9
     # via requests
-dajngo==4.0
+django==4.0
