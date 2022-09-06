@@ -1,5 +1,14 @@
 <img src="https://img.shields.io/badge/Django-092E20.svg?logo=Django&logoColor=white"> <img src="https://img.shields.io/badge/Python-3776AB.svg?logo=Python&logoColor=white"> [![Downloads](https://static.pepy.tech/personalized-badge/django-audio-validator?period=total&units=international_system&left_color=grey&right_color=brightgreen&left_text=Downloads)](https://pepy.tech/project/django-audio-validator) [![PyPI version](https://badge.fury.io/py/django-audio-validator.svg)](https://badge.fury.io/py/django-audio-validator) [![Documentation Status](https://readthedocs.org/projects/django-audio-validator/badge/?version=latest)](https://django-audio-validator.readthedocs.io/en/latest/?badge=latest)
 
+----------
+
+# file validator
+This project has been archived and instead of this I made a more complete library with which you can validate all types of files, the new project has been tested and also supports more types, you can access it through the following link:
+[file validator](https://github.com/rzashakeri/file_validator)
+
+----------
+
+
 # Django Audio Validator 🔉
 
 This Library a Audio Validator For Django With d MIME type checking the magic numbers signature And Extension Use FileType Library
