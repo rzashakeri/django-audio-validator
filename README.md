@@ -3,7 +3,7 @@
 ----------
 
 # file validator
-This project has been archived and instead of this I made a more complete library with which you can validate all types of files, the new project has been tested and also supports more types, you can access it through the following link:
+I made a more complete library with which you can validate all types of files, the new project has been tested and also supports more types, you can access it through the following link:
 [file validator](https://github.com/rzashakeri/file_validator)
 
 ----------
